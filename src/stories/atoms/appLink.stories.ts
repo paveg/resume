@@ -2,7 +2,7 @@ import { AppLink } from '../../app/components/atoms/appLink';
 import type { Meta, StoryObj } from '@storybook/react';
 
 const meta: Meta<typeof AppLink> = {
-  title: 'Example/AppLink',
+  title: 'Example/components/atoms/AppLink',
   component: AppLink,
   tags: ['autodocs'],
   argTypes: {
