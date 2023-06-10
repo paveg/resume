@@ -1,12 +1,13 @@
 import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
+import { AppLink } from '@/app/components/atoms/appLink'
 
 export default function Home() {
   return (
     <main className="container p-16">
       <h1 className="text-3xl font-bold">Ryota Ikezawa</h1>
-      <Link href="https://www.google.com">link</Link>
+      <AppLink href='/'>internal</AppLink><br />
+      <AppLink href='https://www.google.com'>external</AppLink><br />
+      <AppLink external href='/'>with external option</AppLink><br />
     </main>
   )
 }
