@@ -36,6 +36,7 @@
     "@storybook/nextjs": "^7.1.0-alpha.30",
     "@storybook/react": "^7.1.0-alpha.30",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/mdx": "^2.0.5",
     "eslint-plugin-storybook": "^0.6.12",
     "storybook": "^7.1.0-alpha.30"
   }

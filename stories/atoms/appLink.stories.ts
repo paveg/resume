@@ -1,4 +1,4 @@
-import { AppLink } from '../../app/components/atoms/appLink';
+import { AppLink } from "@/components/atoms/AppLink"
 import type { Meta, StoryObj } from '@storybook/react';
 
 const meta: Meta<typeof AppLink> = {
