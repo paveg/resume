@@ -8,6 +8,9 @@ const withMDX = require("@next/mdx")({
 });
 
 const nextConfig = {
+  experimental: {
+    appDir: true,
+  },
   pageExtentions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
   reactStrictMode: true,
 };

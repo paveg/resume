@@ -25,11 +25,8 @@
     ],
     "paths": {
       "@/*": [
-        "./app/*"
+        "./src/*"
       ],
-      "@/components/*": [
-        "./components/*"
-      ]
     }
   },
   "include": [

@@ -1,5 +1,5 @@
-import { AppLink } from "@/components/atoms/AppLink"
 import type { Meta, StoryObj } from '@storybook/react';
+import { AppLink } from './appLink';
 
 const meta: Meta<typeof AppLink> = {
   title: 'Example/components/atoms/AppLink',
