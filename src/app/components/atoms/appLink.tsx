@@ -1,6 +1,4 @@
-'use client'
-
-import React, { FC, memo } from "react";
+import React, { FC } from "react";
 import Link from "next/link";
 
 type Props = {
@@ -8,7 +6,7 @@ type Props = {
   children: React.ReactNode;
   external?: boolean;
 }
-export const AppLink = React.memo(function appLink({ href, children, external }) {
+export const AppLink: FC<Props> = ({ href, children, external }) => {
   const styles = "underline text-blue-500 hover:text-blue-800"
   const isExternal = (): boolean => {
     if (external || href.startsWith('http://') || href.startsWith('https://')) return true
@@ -20,4 +18,4 @@ export const AppLink = React.memo(function appLink({ href, children, external })
       <Link className={styles} href={href} target="_blank" rel="noopener noreferrer">{children}</Link> :
       <Link className={styles} href={href}>{children}</Link>
   )
-})
+}
