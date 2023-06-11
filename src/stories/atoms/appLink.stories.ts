@@ -13,7 +13,7 @@ const meta: Meta<typeof AppLink> = {
     },
     children: {
       description: 'ReactNode',
-      type: { name: 'React.ReactNode', required: true },
+      type: { name: 'other', required: true },
     },
     external: {
       description: 'external or internal link',
